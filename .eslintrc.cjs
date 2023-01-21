@@ -5,6 +5,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:tailwindcss/recommended',
+    'plugin:storybook/recommended',
     'prettier',
   ],
   plugins: ['@typescript-eslint', 'tailwindcss'],
@@ -65,9 +66,10 @@ module.exports = {
     ],
     '@typescript-eslint/consistent-type-imports': [
       'error',
-      { prefer: 'type-imports' },
+      {
+        prefer: 'type-imports',
+      },
     ],
-
     /* tailwindcss */
     'tailwindcss/no-custom-classname': [
       'warn',
