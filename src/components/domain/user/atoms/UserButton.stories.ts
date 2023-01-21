@@ -6,8 +6,4 @@ export default { component: UserButton } satisfies ComponentMeta<
   typeof UserButton
 >;
 
-export const Default: ComponentStoryObj<typeof UserButton> = {
-  args: {
-    content: 'ユーザー',
-  },
-};
+export const Default: ComponentStoryObj<typeof UserButton> = {};
