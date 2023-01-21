@@ -10,7 +10,7 @@
     "export": "next build && next export",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "vitest run",
+    "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
