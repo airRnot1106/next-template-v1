@@ -51,6 +51,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-tailwindcss": "^3.8.0",
+    "eslint-plugin-vitest": "^0.0.30",
     "jsdom": "^21.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",

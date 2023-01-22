@@ -3104,7 +3104,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.48.2", "@typescript-eslint/utils@^5.45.0":
+"@typescript-eslint/utils@5.48.2", "@typescript-eslint/utils@^5.45.0", "@typescript-eslint/utils@^5.48.1":
   version "5.48.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.48.2.tgz#3777a91dcb22b8499a25519e06eef2e9569295a3"
   integrity sha512-2h18c0d7jgkw6tdKTlNaM7wyopbLRBiit8oAxoP89YnuBOzCZ8g8aBCaCqq7h208qUTroL7Whgzam7UY3HVLow==
@@ -5808,6 +5808,13 @@ eslint-plugin-tailwindcss@^3.8.0:
     fast-glob "^3.2.5"
     postcss "^8.4.4"
     tailwindcss "^3.2.2"
+
+eslint-plugin-vitest@^0.0.30:
+  version "0.0.30"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.30.tgz#4244ebf5f5a7c7a28500335200ed046a5fa5c1a3"
+  integrity sha512-nJ7UvxZhucbZxTXzeK1Duy/HFz0cKyO+fnYJ/0ldNzWy7z2cnao5dqAj8AO1/nJlB6M3/8hP+EgVYpEsTfs6FA==
+  dependencies:
+    "@typescript-eslint/utils" "^5.48.1"
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
