@@ -1,7 +1,7 @@
 <div align="center">
 <samp>
 
-# next-template-v3
+# next-template-v1
 
 ## Next.js 13 + ESLint + Prettier + TailwindCSS + daisyUI + Vitest + Storybook template
 
